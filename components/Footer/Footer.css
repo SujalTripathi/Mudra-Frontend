@@ -1,0 +1,75 @@
+.footer-heading{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+.footer-para{
+    display: flex;
+    margin-top:15px;
+}
+.footer-input{
+    display: flex;
+    justify-content:center;
+}
+.footer-input input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 30px;
+    
+}
+.footer-para p{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+.footer-input button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px ;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #00C3FF;
+    color: white;
+    font-weight: bold;
+    
+}
+.footer-input button:hover{
+     background-color: #00a8dd;
+}
+.copy-right{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: small;
+}
+.copy-right button{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.copy-right button:hover{
+    background-color: rgb(217, 214, 214);
+}
+
+.social-media {
+   display: flex;
+   gap: 10px;
+   
+}
+.social-media i{
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+.social-media i:hover{
+    color: #00a8dd;
+       
+
+}
+
